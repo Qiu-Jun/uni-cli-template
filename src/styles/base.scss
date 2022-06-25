@@ -1,0 +1,77 @@
+// flex 布局
+.flex { display: flex; }
+.flex_row{ flex-direction: row; }
+.flex_column{ flex-direction: column; }
+.row_reverse{ flex-direction: row-reverse; }
+.column_reverse{ flex-direction: column-reverse; }
+.wrap{ flex-wrap: wrap; }
+.nowrap{ flex-wrap: nowrap; }
+.j_start{ justify-content: flex-start; }
+.j_end{ justify-content: flex-end; }
+.j_between{ justify-content: space-between; }
+.j_center{ justify-content: center; }
+.j_around{ justify-content: space-around; }
+.a_center{ align-items: center; }
+.a_stretch{ align-items: stretch; }
+.a_start{ align-items: flex-start; }
+.a_end{ align-items: flex-end; }
+.as_end{ align-self: flex-end; }
+@for $i from 1 through 5 {
+    .flex_#{$i} {
+        flex: #{$i};
+    }
+}
+
+// 常用margin 10-50 整十数 rpx
+@for $i from 1 through 5 {
+    .m_#{$i}0 {
+        margin: #{$i}0rpx;
+    }
+	.mx_#{$i}0 {
+		margin-left: #{$i}0rpx;
+		margin-right: #{$i}0rpx;
+	}
+	.my_#{$i}0 {
+		margin-top: #{$i}0rpx;
+		margin-bottom: #{$i}0rpx;
+	}
+	.mr_#{$i}0 {
+		margin-right: #{$i}0rpx;
+	}
+	.ml_#{$i}0 {
+		margin-left: #{$i}0rpx;
+	}
+	.mt_#{$i}0 {
+		margin-top: #{$i}0rpx;
+	}
+	.mb_#{$i}0 {
+		margin-bottom: #{$i}0rpx;
+	}
+}
+
+// 常用padding 10-50 整十数 rpx
+@for $i from 1 through 5 {
+    .p-#{$i} {
+        padding: #{$i}0rpx;
+    }
+	.px_#{$i} {
+		padding-left: #{$i}0rpx;
+		padding-right: #{$i}0rpx;
+	}
+	.py_#{$i} {
+		padding-top: #{$i}0rpx;
+		padding-bottom: #{$i}0rpx;
+	}
+	.pr_#{$i} {
+		padding-right: #{$i}0rpx;
+	}
+	.pl_#{$i} {
+		padding-left: #{$i}0rpx;
+	}
+	.pt_#{$i} {
+		padding-top: #{$i}0rpx;
+	}
+	.pb_#{$i} {
+		padding-bottom: #{$i}0rpx;
+	}
+}

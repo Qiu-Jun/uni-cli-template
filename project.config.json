@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "myApp",
+  "projectname": "达人易",
   "description": "",
-  "appid": "touristappid",
+  "appid": "wxc691b9211385684b",
   "setting": {
     "urlCheck": true,
     "es6": false,

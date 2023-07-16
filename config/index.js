@@ -1,7 +1,7 @@
 const path = require('path')
 
 const config = {
-  projectName: 'myApp',
+  projectName: '达人易',
   date: '2023-7-16',
   designWidth: 750,
   deviceRatio: {

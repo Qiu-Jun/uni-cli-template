@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
   "projectname": "talente-saas-miniprogram",
-  "appid": "wxc691b9211385684b",
+  "appid": "",
   "setting": {
     "es6": false,
     "minified": false

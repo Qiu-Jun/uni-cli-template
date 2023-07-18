@@ -12,7 +12,6 @@ const title = ref('Hello')
 </script>
 
 <style lang="scss">
-
 .content {
   display: flex;
   flex-direction: column;
@@ -27,8 +26,6 @@ const title = ref('Hello')
     margin-bottom: 50rpx;
   }
 }
-
-
 
 .text-area {
   display: flex;

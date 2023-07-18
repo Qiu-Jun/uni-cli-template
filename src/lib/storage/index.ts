@@ -3,9 +3,9 @@
  * @param { keyName }
  * @return { storageVal }
  */
- export function getStorageSync(key: string) {
-    const val = uni.getStorageSync(key) || null
-    return val ? JSON.parse(val) : null
+export function getStorageSync(key: string) {
+  const val = uni.getStorageSync(key) || null
+  return val ? JSON.parse(val) : null
 }
 
 /**
@@ -14,8 +14,8 @@
  * @param { any } val
  */
 export function setStorageSync(key: string, val: any) {
-    const value = JSON.stringify(val)
-    return uni.setStorageSync(key, value)
+  const value = JSON.stringify(val)
+  return uni.setStorageSync(key, value)
 }
 
 /**
@@ -24,11 +24,11 @@ export function setStorageSync(key: string, val: any) {
  * @param { any } val
  */
 export function setStorage(key: string, val: any) {
-    const value = JSON.stringify(val)
-    uni.setStorage({
-        key,
-        data: value
-    })
+  const value = JSON.stringify(val)
+  uni.setStorage({
+    key,
+    data: value
+  })
 }
 
 /**
@@ -36,9 +36,9 @@ export function setStorage(key: string, val: any) {
  * @param { String } key
  */
 export function removeStorageSync(key: string) {
-    try {
-        return uni.removeStorageSync(key)
-    } catch (e) {
-        console.log(`移除失败${e}`)
-    }
+  try {
+    return uni.removeStorageSync(key)
+  } catch (e) {
+    console.log(`移除失败${e}`)
+  }
 }

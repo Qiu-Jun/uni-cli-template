@@ -1,5 +1,5 @@
-import { defineConfig } from "vite";
-import uni from "@dcloudio/vite-plugin-uni";
+import { defineConfig } from 'vite'
+import uni from '@dcloudio/vite-plugin-uni'
 import { resolve } from 'node:path'
 import AutoImport from 'unplugin-auto-import/vite'
 
@@ -7,9 +7,11 @@ import AutoImport from 'unplugin-auto-import/vite'
 export default defineConfig({
   plugins: [
     AutoImport({
-      imports: ['vue'],
+      imports: ['vue', 'uni-app'],
       dts: true,
-      // eslintrc: true
+      eslintrc: {
+        enabled: true
+      }
     }),
     uni()
   ],
@@ -18,4 +20,4 @@ export default defineConfig({
       '@': `${resolve(__dirname)}/`
     }
   }
-});
+})

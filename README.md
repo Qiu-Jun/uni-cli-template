@@ -3,6 +3,7 @@
 #### 技术栈
 + vue3
 + typescript
++ pinia
 + uniapp
 
 #### 使用

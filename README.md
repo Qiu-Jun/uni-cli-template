@@ -10,6 +10,9 @@
 #### 使用
 
 ```bash
+# 如果没有pnpm 项目使用pnpm，commit自动校验都是用pnpm,请使用pnpm启动项目
+npm install pnpm -g
+
 pnpm install
 
 pnpm dev:weapp

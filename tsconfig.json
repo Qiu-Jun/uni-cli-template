@@ -12,15 +12,9 @@
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": true,
     "resolveJsonModule": true,
-    "lib": [
-      "esnext",
-      "dom"
-    ],
+    "lib": ["esnext", "dom"],
     "baseUrl": "./",
-    "types": [
-      "@dcloudio/types",
-      "@uni-helper/uni-app-types"
-    ],
+    "types": ["@dcloudio/types", "@uni-helper/uni-app-types"],
     "paths": {
       "@/*": ["src/*"]
     }
@@ -31,7 +25,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "./auto-imports.d.ts"
-  ], 
+  ],
   "exclude": ["dist", "node_modules", "unpackage", "src/**/*.nvue"],
 
   // uni-app Component type prompt

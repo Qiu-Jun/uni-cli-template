@@ -1,12 +1,18 @@
-## taro init myApp
+## 达人易
+
+#### 技术栈
++ vue3
++ typescript
++ uniapp
 
 #### 使用
 ```bash
-yarn install
+pnpm install
 
-yarn dev:weapp
+pnpm dev:weapp
 ```
 
 #### TODO
-- [ ] 按需加载 babel-plugin-import
+- [x] uni脚手架初始化
+- [ ] 环境变量
 - [ ] eslint + prettier + husky

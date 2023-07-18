@@ -1,20 +1,22 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "baseUrl": ".",
-    "module": "ESNext",
-    "target": "es2016",
-    "lib": ["DOM", "ESNext"],
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
     "jsx": "preserve",
+    "moduleResolution": "node",
     "esModuleInterop": true,
+    "sourceMap": true,
     "skipLibCheck": true,
-    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "useDefineForClassFields": true,
     "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "baseUrl": "./",
     "types": [
       "@dcloudio/types",
       "@uni-helper/uni-app-types"
@@ -29,8 +31,8 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "./auto-imports.d.ts"
-  ],
-  "exclude": ["dist", "node_modules"],
+  ], 
+  "exclude": ["dist", "node_modules", "unpackage", "src/**/*.nvue"],
 
   // uni-app Component type prompt
   "vueCompilerOptions": {

@@ -4,6 +4,8 @@
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
+
+    <uni-icons type="contact" size="30"></uni-icons>
   </view>
 </template>
 

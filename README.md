@@ -19,6 +19,7 @@ pnpm dev:weapp
 ```
 
 #### vscode setting
+> 正常情况会根据.vscode下的extendsions提示安装插件,没有的话重新打开项目或手动安装配置
 
 - vscode 插件
   - Prettier - Code formatter

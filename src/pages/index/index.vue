@@ -10,6 +10,9 @@
 </template>
 
 <script setup lang="ts">
+import { getUserData } from '@/apis/account'
+
+getUserData()
 const title = ref('Hello')
 </script>
 

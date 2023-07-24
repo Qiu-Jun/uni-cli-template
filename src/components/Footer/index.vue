@@ -3,5 +3,5 @@
 </template>
 
 <script lang="ts" setup>
-import { appTitle } from '@/config/constants/app'
+import { appTitle } from '@/constants/app'
 </script>

@@ -5,10 +5,14 @@ import useAppStore from '@/store/app'
 
 const appStore = useAppStore()
 
-onLaunch(() => {
+onLaunch(async () => {
   const systemInfo = uni.getSystemInfoSync()
   appStore.setSystemInfo(systemInfo)
-  console.log(appStore.systemInfo)
+  // console.log(appStore.systemInfo)
+  // #ifdef MP-WEIXIN
+  const extJson = await uni.getExtConfigSync()
+  console.log(extJson)
+  // #endif
 })
 onShow(() => {
   console.log('App Show')

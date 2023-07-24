@@ -2,10 +2,13 @@
 
 #### 技术栈
 
-- vue3
-- typescript
-- pinia
-- uniapp
+- Node 16.20.1
+- pnpm 8.6.3
+
+* vue3
+* typescript
+* pinia
+* uniapp
 
 #### 使用
 

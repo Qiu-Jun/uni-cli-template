@@ -1,4 +1,4 @@
-## 达人易
+## uni-cli-template
 
 #### 技术栈
 

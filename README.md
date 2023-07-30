@@ -21,8 +21,9 @@ pnpm dev:weapp
 ```
 
 #### 使用说明
-+ 已集成AutoImport, 对于vue的组合api无需手动import
-+ 环境变量目前只有dev和pro，可以手动添加处理
+
+- 已集成AutoImport, 对于vue的组合api无需手动import
+- 环境变量目前只有dev和pro，可以手动添加处理
 
 #### vscode setting
 

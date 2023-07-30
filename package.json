@@ -1,5 +1,5 @@
 {
-  "name": "达人易",
+  "name": "uni_vite_vue3_template",
   "version": "0.0.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",

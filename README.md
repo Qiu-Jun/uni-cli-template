@@ -4,11 +4,10 @@
 
 - Node 16.20.1
 - pnpm 8.6.3
-
-* vue3
-* typescript
-* pinia
-* uniapp
+- vue3
+- typescript
+- pinia
+- uniapp
 
 #### 使用
 
@@ -20,6 +19,10 @@ pnpm install
 
 pnpm dev:weapp
 ```
+
+#### 使用说明
++ 已集成AutoImport, 对于vue的组合api无需手动import
++ 环境变量目前只有dev和pro，可以手动添加处理
 
 #### vscode setting
 
@@ -49,4 +52,5 @@ pnpm dev:weapp
 - [x] uni脚手架初始化
 - [x] 环境变量
 - [x] eslint + prettier + husky
+- [ ] unicss
 - [ ] commit cz

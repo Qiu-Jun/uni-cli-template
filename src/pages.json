@@ -1,5 +1,4 @@
 {
-  "lazyCodeLoading": "requiredComponents",
   "pages": [
     {
       "path": "pages/index/index",

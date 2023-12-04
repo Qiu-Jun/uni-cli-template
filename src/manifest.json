@@ -50,6 +50,7 @@
   "quickapp": {},
   /* 小程序特有相关 */
   "mp-weixin": {
+    "lazyCodeLoading": "requiredComponents",
     "appid": "wxc691b9211385684b",
     "setting": {
       "urlCheck": false

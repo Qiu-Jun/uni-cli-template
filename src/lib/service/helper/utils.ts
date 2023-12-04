@@ -1,5 +1,5 @@
 import { baseUrl } from '@/constants/app'
-import useUserStore from '@/store/user'
+import { useUserStore } from '@/store'
 import type { Irequest } from '../types'
 
 const userStore = useUserStore()

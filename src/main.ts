@@ -1,11 +1,11 @@
 import { createSSRApp } from 'vue'
 import App from './App.vue'
-import { createPinia } from 'pinia'
+import setupStore from './store'
+import 'virtual:uno.css'
 
 export function createApp() {
   const app = createSSRApp(App)
-  const store = createPinia()
-  app.use(store)
+  setupStore(app)
   return {
     app
   }

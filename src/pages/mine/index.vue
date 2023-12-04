@@ -22,7 +22,7 @@
 
 <script lang="ts" setup>
 import Cfooter from '@/components/Footer/index.vue'
-import useAppStore from '@/store/app'
+import { useAppStore } from '@/store'
 
 const appStore = useAppStore()
 console.log(appStore.systemInfo)

@@ -53,5 +53,5 @@ pnpm dev:weapp
 - [x] uni脚手架初始化
 - [x] 环境变量
 - [x] eslint + prettier + husky
-- [ ] unicss
-- [ ] commit cz
+- [x] unocss
+- [] commit cz

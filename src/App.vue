@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from '@dcloudio/uni-app'
 import { updateMpWx } from '@/utils/update'
-import useAppStore from '@/store/app'
+import { useAppStore } from '@/store'
 
 const appStore = useAppStore()
 

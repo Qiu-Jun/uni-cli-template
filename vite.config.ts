@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     AutoImport({
       imports: ['vue', 'uni-app'],
-      dts: true,
+      dts: './src/dts/auto-imports.d.ts',
       eslintrc: {
         enabled: true
       }

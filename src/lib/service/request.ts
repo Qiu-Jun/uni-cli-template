@@ -1,5 +1,6 @@
 import { mergeOps } from './helper/utils'
 import errTips from '@/constants/httpErrCode'
+import { clearStorage } from '../storage'
 import type { Irequest } from './types'
 
 export default function request(options: Irequest) {
@@ -26,6 +27,11 @@ export default function request(options: Irequest) {
             })
             reject({ code, message, data: null })
           }
+        } else if (statusCode === 401) {
+          const pages = getCurrentPages()
+          const curPages = pages[pages.length - 1]
+          if (curPages && curPages.route === 'pages/login/index') return false
+          clearStorage()
         } else {
           uni.showToast({
             icon: 'none',

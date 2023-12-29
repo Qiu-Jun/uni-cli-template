@@ -42,3 +42,8 @@ export function removeStorageSync(key: string) {
     console.log(`移除失败${e}`)
   }
 }
+
+// 清空所有缓存 同步
+export function clearStorage() {
+  return uni.clearStorageSync()
+}

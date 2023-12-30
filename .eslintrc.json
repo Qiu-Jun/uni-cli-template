@@ -5,7 +5,9 @@
     "node": true
   },
   "globals": {
-    "uni": true
+    "uni": true,
+    "UniApp": true,
+    "Glo": true
   },
   "extends": [
     "eslint:recommended",

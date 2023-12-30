@@ -10,8 +10,9 @@ onLaunch(async () => {
   appStore.setSystemInfo(systemInfo)
   // console.log(appStore.systemInfo)
   // #ifdef MP-WEIXIN
-  const extJson = await uni.getExtConfigSync()
-  console.log(extJson)
+  // 第三方时使用
+  // const extJson = await uni.getExtConfigSync()
+  // console.log(extJson)
   // #endif
 })
 onShow(() => {

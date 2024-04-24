@@ -1,8 +1,16 @@
+<!--
+ * @Author: June
+ * @Description: 
+ * @Date: 2024-04-24 09:32:13
+ * @LastEditTime: 2024-04-24 10:05:37
+ * @LastEditors: June
+ * @FilePath: \uni-cli-template\src\pages\index\index.vue
+-->
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
-      <text class="title">{{ title }}</text>
+      <text class="title">{{ title }}测试</text>
     </view>
 
     <uni-icons type="contact" size="30"></uni-icons>

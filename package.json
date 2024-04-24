@@ -90,9 +90,6 @@
     "vite": "4.0.4",
     "vue-tsc": "^1.0.24"
   },
-  "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix --ext .js,.vue,.ts src"
-  },
   "config": {
     "commitizen": {
       "path": "git-cz"

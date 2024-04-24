@@ -93,12 +93,6 @@
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --fix --ext .js,.vue,.ts src"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint"
-    }
-  },
   "config": {
     "commitizen": {
       "path": "git-cz"

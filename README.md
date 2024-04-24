@@ -1,3 +1,12 @@
+<!--
+ * @Description: md
+ * @Author: June
+ * @Date: 2024-04-24 09:32:13
+ * @FilePath: \uni-cli-template\README.md
+ * @LastEditTime: 2024-04-24 09:49:59
+ * @LastEditors: June
+-->
+
 ## uni-cli-template
 
 #### 技术栈
@@ -46,6 +55,22 @@ pnpm dev:weapp
   // 默认格式化工具选择prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
+```
+
+#### 自动注释说明
+
+> 使用的是korofileheader
+> .vscode/settings.json
+
+```json
+"fileheader.customMade": {
+  "Description": "", //文件内容描述
+  "Author": "Your Name", //编辑人
+  "Date": "Do not edit", //时间
+  "FilePath": "", // 设置后，默认生成文件相对于项目的路径
+  "LastEditTime": "Do not edit",
+  "LastEditors": "Your Name"
+},
 ```
 
 #### TODO

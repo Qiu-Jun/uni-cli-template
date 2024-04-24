@@ -38,9 +38,10 @@
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
     "type-check": "vue-tsc --noEmit",
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "lint": "eslint --ext --fix .vue,.js,.ts,.jsx,.tsx src",
     "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-3080720230703001",
@@ -61,6 +62,8 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@dcloudio/types": "^3.3.2",
     "@dcloudio/uni-automator": "3.0.0-3080720230703001",
     "@dcloudio/uni-cli-shared": "3.0.0-3080720230703001",
@@ -74,7 +77,9 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^9.15.1",
+    "git-cz": "^4.9.0",
     "husky": "^8.0.3",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.0.0",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
@@ -84,6 +89,14 @@
     "unplugin-auto-import": "^0.16.6",
     "vite": "4.0.4",
     "vue-tsc": "^1.0.24"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix --ext .js,.vue,.ts src"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
   },
   "engines": {
     "node": ">=14 <17",

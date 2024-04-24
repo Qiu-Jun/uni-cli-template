@@ -3,7 +3,7 @@
  * @Author: June
  * @Date: 2024-04-24 09:32:13
  * @FilePath: \uni-cli-template\README.md
- * @LastEditTime: 2024-04-24 09:49:59
+ * @LastEditTime: 2024-04-24 10:51:18
  * @LastEditors: June
 -->
 
@@ -79,4 +79,4 @@ pnpm dev:weapp
 - [x] 环境变量
 - [x] eslint + prettier + husky
 - [x] unocss
-- [] commit cz
+- [x] commit cz

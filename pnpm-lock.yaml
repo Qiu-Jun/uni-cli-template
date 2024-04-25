@@ -44,15 +44,15 @@ dependencies:
   '@dcloudio/uni-quickapp-webview':
     specifier: 3.0.0-3080720230703001
     version: 3.0.0-3080720230703001(postcss@8.4.26)(vue@3.3.4)
-  '@dcloudio/uni-ui':
-    specifier: ^1.4.28
-    version: 1.4.28
   pinia:
     specifier: 2.0.36
     version: 2.0.36(typescript@4.9.4)(vue@3.3.4)
   vue:
     specifier: ^3.3.4
     version: 3.3.4
+  wot-design-uni:
+    specifier: ^1.2.18
+    version: 1.2.18(vue@3.3.4)
 
 devDependencies:
   '@commitlint/cli':
@@ -2388,10 +2388,6 @@ packages:
       - supports-color
       - ts-node
       - vue
-    dev: false
-
-  /@dcloudio/uni-ui@1.4.28:
-    resolution: {integrity: sha512-e/lSbvR79KH9+d3D4ueNbvD6szigjO/5IyjBNmiTqaj0PTS324fBV3L6f3s1qpkYonM4rdOl000hVOcAg6Gh/A==}
     dev: false
 
   /@dcloudio/vite-plugin-uni@3.0.0-3080720230703001(postcss@8.4.26)(vite@4.0.4)(vue@3.3.4):
@@ -6909,7 +6905,7 @@ packages:
       jest-util: 27.5.1
       natural-compare: 1.4.0
       pretty-format: 27.5.1
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9195,6 +9191,15 @@ packages:
     dependencies:
       isexe: 2.0.0
     dev: true
+
+  /wot-design-uni@1.2.18(vue@3.3.4):
+    resolution: {integrity: sha512-75Jh4FuHR/8jGLdiHiB/hXGFg6LvyPR03QnPqemoPrV2UK/2lXLwAhuJhO36kCDAKMN/M8vcUF8qMS6FLx9J2A==}
+    engines: {HBuilderX: ^3.8.7}
+    peerDependencies:
+      vue: '>=3.2.47'
+    dependencies:
+      vue: 3.3.4
+    dev: false
 
   /wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}

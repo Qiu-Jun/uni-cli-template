@@ -2,7 +2,7 @@
  * @Author: June
  * @Description: 
  * @Date: 2024-04-24 09:32:13
- * @LastEditTime: 2024-04-24 10:26:10
+ * @LastEditTime: 2024-04-25 08:44:00
  * @LastEditors: June
  * @FilePath: \uni-cli-template\src\pages\index\index.vue
 -->
@@ -10,10 +10,10 @@
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
-      <text class="title">{{ title }}测</text>
+      <text class="title">{{ title }}</text>
     </view>
 
-    <uni-icons type="contact" size="30"></uni-icons>
+    <wd-icon name="add-circle" />
   </view>
 </template>
 

@@ -27,6 +27,10 @@ npm install pnpm -g
 pnpm install
 
 pnpm dev:weapp
+
+# 提交代码
+git add . # 添加需要提交的文件
+pnpm commit # 使用此命令编写commit
 ```
 
 #### 使用说明

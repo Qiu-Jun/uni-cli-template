@@ -98,5 +98,11 @@
   "engines": {
     "node": ">=16 <20",
     "pnpm": ">=8"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,scss}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
